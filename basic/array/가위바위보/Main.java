@@ -4,21 +4,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public ArrayList<Character> solution(int num, int arrA[], int arrB[]) {
-        ArrayList<Character> answer = new ArrayList<>();
+    public String solution(int num, int arrA[], int arrB[]) {
+        String answer = "";
 
         for (int i = 0; i < num; i++) {
-            if (arrA[i] == arrB[i]) answer.add('D');
-            else if (arrA[i] == 1) {
-                if (arrB[i] == 2) answer.add('B');
-                else answer.add('A');
-            } else if (arrA[i] == 2) {
-                if (arrB[i] == 1) answer.add('A');
-                else answer.add('B');
-            } else {
-                if (arrB[i] == 1) answer.add('B');
-                else answer.add('A');
-            }
+            if (arrA[i] == arrB[i]) answer += "D";
+            else if (arrA[i] == 1 && arrB[i]==3) answer += "A";
+            else if (arrA[i] == 2 && arrB[i]==1) answer += "A";
+            else if (arrA[i] == 3 && arrB[i]==2) answer += "A";
+            else answer += "B";
         }
 
         return answer;
@@ -38,8 +32,7 @@ public class Main {
             arrB[i] = sc.nextInt();
         }
 
-        for (char x : main.solution(num, arrA, arrB)) {
-            System.out.println(x);
-        }
+        for (char x : main.solution(num, arrA, arrB).toCharArray()) System.out.println(x);
+
     }
 }
