@@ -30,4 +30,5 @@
 - [큰 수 출력하기](basic/array/큰수출력하기/Main.java)
 - [보이는 학생](basic/array/보이는학생/Main.java)
 - [가위바위보](basic/array/가위바위보/Main.java)
+- [피보나치 수열](basic/array/피보나치수열/Main.java)
 </details>
