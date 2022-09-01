@@ -31,4 +31,5 @@
 - [보이는 학생](basic/array/보이는학생/Main.java)
 - [가위바위보](basic/array/가위바위보/Main.java)
 - [피보나치 수열](basic/array/피보나치수열/Main.java)
+- [에라토스테네스 체](basic/array/에라토스테네스_체/Main.java)
 </details>
