@@ -32,4 +32,20 @@
 - [가위바위보](basic/array/가위바위보/Main.java)
 - [피보나치 수열](basic/array/피보나치수열/Main.java)
 - [에라토스테네스 체](basic/array/에라토스테네스_체/Main.java)
+- [뒤집은 소수](basic/array/뒤집은소수/Main.java)
+- [등수 구하기](basic/array/등수구하기/Main.java)
+- [점수 계산](basic/array/점수계산/Main.java)
+- [격자판 최대 합](basic/array/격자판최대합/Main.java)
+- [봉우리 구하기](basic/array/봉우리/Main.java)
+- [임시 반장 구하기](basic/array/임시반장/Main.java)
+</details>
+
+<br>
+
+<details>
+<summary>Two pointers, Sliding window</summary>
+- [두 배열 합치기](basic/twoPointer/두배열합치기/Main.java)
+- [공통 원소 구하기](basic/twoPointer//Main.java)
+
+
 </details>
