@@ -44,8 +44,9 @@
 
 <details>
 <summary>Two pointers, Sliding window</summary>
+  
 - [두 배열 합치기](basic/twoPointer/두배열합치기/Main.java)
-- [공통 원소 구하기](basic/twoPointer//Main.java)
+- [공통 원소 구하기](basic/twoPointer/공통원소구하기/Main.java)
 
 
 </details>
