@@ -4,10 +4,20 @@ import java.util.Scanner;
 
 public class Main {
     public int solution(int n) {
-        int answer = 0;
+        //math
+        int answer = 0, cnt = 1;
+        n--;
+        while (n > 0) {
+            cnt++;
+            n = n - cnt;
+            if (n % cnt == 0) answer++;
+        }
+        
+        /* two pointer
         int m = n / 2 + 1;
         int arr[] = new int[m];
         int lt = 0, sum = 0;
+
 
         for (int i = 0; i < m; i++) {
             arr[i] = i+1;
@@ -21,6 +31,7 @@ public class Main {
                 if (sum == n) answer++;
             }
         }
+        */
 
         return answer;
     }
