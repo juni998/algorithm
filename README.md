@@ -14,3 +14,9 @@
 
 ### ord 함수
 - 문자를 받고 해당 문자의 유니코드를 정수로 반환
+
+```python
+# a입력
+column = int(ord(input_data[0])) - int(ord('a') + 1 # 결과 = 1
+
+```
